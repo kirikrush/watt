@@ -1,73 +1,289 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Watt</title>
-    <link rel="stylesheet" href="assets/style/style.css">
-    <link rel="stylesheet" href="assets/fonts/fonts.css">
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 </head>
 
 <body>
-    <div class="adaptive-menu" id="mobile-menu">
-        <div class="container">
-            <ul class="mobile-navigation">
-                    <li><a href="" class="mobile-navigation__item">who are we</a></li>
-                <li><a href="" class="mobile-navigation__item">services</a></li>
-                <li><a href="" class="mobile-navigation__item">advantage</a></li>
-                <li><a href="" class="mobile-navigation__item">development proccess</a></li>
-                <li><a href="" class="mobile-navigation__item">technology base stack</a></li>
-                <li><a href="" class="mobile-navigation__item">contacts</a></li>
-                
-            </ul>
-            <button class="call adaptive" aria-label="Send contacts">contact us</button>
-        </div>
-    </div>
     <header>
         <div class="container">
-            <a href="#head"><img src="assets/images/logo.svg"  alt="Brand's logo" class="logotype"></a>
-            <nav class="top-navigation">
-                <ul>
-                    <li class="navigation__item--current"><a href="">who are we</a></li>
-                    <li class="navigation__item"><a href="">services</a></li>
-                    <li class="navigation__item"><a href="">advantage</a></li>
-                    <li class="navigation__item"><a href="">development <br> proccess</a></li>
-                    <li class="navigation__item"><a href="">technology  <br> base stack</a></li>
-                    <li class="navigation__item"><a href="">contacts</a></li>
-                </ul>
-            </nav>
-
-            <button class="call" aria-label="Send contacts">contact us</button>
-            <!-- <a class="call" aria-label="Send contacts"></a> - в зависимости от того, что выполняет эта кнопка. Если открывает модальное окно, то кнопка. Если открывает блок контактов - ссылка-->
-            <button class="burger" id="burger"><span class="shape"></span></button>
-        </div>
-        </header>
-    <section id="head">
-            
-        <div class="container">
-                <ul class="pagination">
-                        <li> <a href="" class="pagination__item--current" title="first section"></a></li>
-                        <li> <a href="" class="pagination__item" title="second section"></a></li>
-                        <li> <a href="" class="pagination__item" title="third section"></a></li>
-                        <li> <a href="" class="pagination__item" title="fourth section"></a></li>
-                        <li> <a href="" class="pagination__item" title="fifth section"></a></li>
-                        <li> <a href="" class="pagination__item" title="sixth section"></a></li>
+            <div class="row d-f;ex justify-content-between align-items-center">
+                <div class="logotype">
+                    <img src="assets/img-compressed/logo.png" alt="">
+                </div>
+                <nav class="ml-auto mr-auto">
+                    <ul class="d-flex">
+                        <li><a href="">Цены</a></li>
+                        <li><a href="">Консультация</a></li>
+                        <li><a href="">Преимущества</a></li>
+                        <li><a href="">Этапы работы</a></li>
+                        <li><a href="">FAQ</a></li>
                     </ul>
-            
-           <div class="text-block">
-                <h1 class="heading--big">Power <br> in unity</h1>
-            <p class="description">We built a hi-tech innovative start-up team 4 years ago. During <br> 
-                this time, we’ve worked well and become a truly united team <br>
-                where each member has a well-deserved and important role. <br>
-                Now we are ready for further growth and new successful projects. </p>
-                <button class="call adaptive" aria-label="Send contacts">contact us</button>
-           </div>
+                </nav>
+                <address>
+                    <ul>
+                        <li><a href="">
+                                +7 (922) 163-33-00
+                            </a></li>
+                        <li><a href="">
+                                Обратный звонок
+                            </a></li>
+                    </ul>
+                </address>
+            </div>
+        </div>
+    </header>
+    <section class="topscreen">
+        <div class="container">
+            <div class="row">
+                <h1 class="heading--big col-12">Избавим от вредителей в течение 40 минут <br>
+
+                    в г.Пермь от <span class="green">800</span> рублей</h1>
+                <ul class="advantages col-12">
+                    <li>Квалифицированные сотрудники</li>
+                    <li>Безопасные сертифицированные средства</li>
+                    <li>Исправляем ошибки других дезинфекторов</li>
+                    <li>Бесплатная консультация ведущего дезинфектора</li>
+                    <li>Прибудем на объект в течение часа</li>
+                </ul>
+                <a href="" class="button">Оставить заявку</a>
+            </div>
+        </div>
+
+    </section>
+    <section class="price">
+        <div class="container">
+            <div class="row">
+                <h2 class="heading--medium col-12 text-left">Наши цены</h2>
+                <ul class="col-lg-6 ml-auto mr-auto col-md-8 col-12">
+                    <li><span>Комната в общежитии</span><span>от 800</span></li>
+                    <li><span>1-комнатная квартира</span><span>1500</span></li>
+                    <li><span>2-х комнатная квартира</span><span>1800</span></li>
+                    <li><span>3-х комнатная квартира</span><span>2100</span></li>
+                    <li><span>4-х комнатная квартира</span><span>2400</span></li>
+                    <li><span>Помещения от 150 м²ната</span><span>по договоренности</span></li>
+                </ul>
+                <div class="w-100"></div>
+                <a href="" class="button--empty">Заказать звонок</a>
+            </div>
         </div>
     </section>
-    <script src="assets/js/script.js"></script>
+    <section class="consult">
+        <div class="container">
+            <div class="row">
+                <h2 class="heading--medium2">Бесплатная консультация дезинфектора</h2>
+                <div class="col-md-7 col-12">
+                    <ul class="actions">
+                        <li>
+                            Вас проконсультирует по всем вопросам наш ведущий дезинфектор с 12-летним опытом работы
+                        </li>
+                        <li>
+                            Также вы можете проконсультироваться у нашего санитарного врача
+                        </li>
+                    </ul>
+                    <form action="">
+                        <input type="text" placeholder="Данные для ввода">
+                        <input type="text" placeholder="Данные для ввода">
+                        <button class="button">Отправить заявку</button>
+                    </form>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section class="advantages-block">
+        <div class="container">
+            <div class="row">
+                <h2 class="heading--medium m-auto">8 причин обратиться к нам:</h2>
+                <ul class="advantages__list">
+                    <li>
+                        <h3 class="heading--min">Огромный опыт
+
+                            работы</h3>
+                        <p class="text">Квалифицированный персонал с медицинским образованием и стажем не менее 10 лет
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="heading--min">Безопасные препараты</h3>
+                        <p class="text">Европейские препараты 4-го класса безопасности - для аллергиков, детей и
+                            животных.</p>
+                    </li>
+                    <li>
+                        <h3 class="heading--min">Конфиденциально</h3>
+                        <p class="text">Никто из друзей и соседей не узнает о Вашей проблеме.</p>
+                    </li>
+                    <li>
+                        <h3 class="heading--min">Оперативность</h3>
+                        <p class="text">Приедем в удобное время 24/7.
+
+                            Дезинфектор готов выехать к Вам через час после звонка.</p>
+                    </li>
+                    <li>
+                        <h3 class="heading--min">Научная база</h3>
+                        <p class="text">Санитарные врачи в штате и мастера-дезинфекторы с подтвержденной квалификацией.
+                        </p>
+                    </li>
+                    <li>
+                        <h3 class="heading--min">Акт Передачи</h3>
+                        <p class="text">Заключаем с Вами договор на проведение работ.</p>
+                    </li>
+                </ul>
+                <a href="" class="button m-auto">Заказать</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="steps">
+        <div class="container">
+            <div class="row justify-content-between">
+                <h2 class="heading--medium m-auto">С нами очень просто работать:</h2>
+                <div class="w-100"></div>
+                <div class="col-4 step">
+                    <div class="top">1</div>
+                    <p class="text">Позвоните нам по номеру
+
+                        +7 (922) 163-33-00
+
+                        или оставьте заявку</p>
+                </div>
+                <div class="col-4 step">
+                    <div class="top">2</div>
+                    <p class="text">Мы оформляем заказ
+
+                        и уточняем время. Работа может начаться в день звонка</p>
+                </div>
+                <div class="col-4 step">
+                    <div class="top">3</div>
+                    <p class="text">Мастер прибудет к Вам
+
+                        в назначенное время</p>
+                </div>
+                <div class="col-4 step">
+                    <div class="top">4</div>
+                    <p class="text">Оформим договор и только после этого примемся за работу.</p>
+                </div>
+                <div class="col-4 step">
+                    <div class="top">5</div>
+                    <p class="text">Работа займет от 30 минут до 2-х часов в зависимости от объема работ
+
+                        Вредители будут уничтожены!</p>
+                </div>
+                <div class="col-4 step">
+                    <div class="top">6</div>
+                    <p class="text">По окончании работ Вы оплачиваете. Никаких предоплат и авансов</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <div class="container">
+            <div class="row">
+                <h2 class="heading--medium ml-auto mr-auto">Частые вопросы</h2>
+                <div class="w-100"></div>
+                <div class="faqs col-md-10 col-12 m-auto">
+                        <p class="answ">Как подготовить помещение перед обработкой от клопов?</p>
+                        <p class="quest"> Для того, чтобы обработка прошла наиболее эффективно необходимо серьезно отнестись к рекомендациям по подготовке квартиры:
+
+                                Проведите генеральную уборку. Струя из генератора холодного тумана выдается под высоким давлением и во время проведения дезинсекции в неубранной квартире пыль будет летать клубками. Обрабатывать необходимо чистое поверхности;  <br><br>
+                                Отодвиньте диваны и кровати от стен, чтобы был доступ к плинтусам;
+                                Наиболее тщательной обработке подвергается мягкая мебель. Если в диванах лежат вещи, их необходимо вытащить. Диван разложить. Максимально разобрать диван, чтобы попасть препаратом в самые гнезда клопов. Диван необходимо поднять и поставить на ребро, чтобы можно было провести обработку по нижней части; <br><br>
+                                С кроватей необходимо снять постельное белье и поместить его в мешки, туго завязав на узел. Белье следует постирать при температуре 90 градусов и тщательно прогладить горячим утюгом. Уделите особое внимание швам на постельном белье. Матрас с кровати снять и поставить на ребро рядом с кроватью, что бы была возможность провести обработку с 2-х сторон матраса; <br><br>
+                                Обратите внимание на плинтуса. Если они деревянные, осторожно отодвиньте его и посмотрите, есть ли там клопы или их следы. Если плинтуса заселены клопами, то их необходимо снять. Если такой возможности нет, дезинфектор будет проводить обработку плинтусов без демонтажа. Если плинтуса пластиковые или в них вытаскивается серединка для кабеля, необходимо их разобрать; <br><br>
+                                Обои. При высокой заселенности помещения клопами, их можно найти в обоях. Единственный способ вывести клопов — это сорвать отошедшие от стен обои. Загляните под подоконники. Там, где батареи, обои часто отстают от стен и в них сидят клопы; <br><br>
+                                Шкафы и вещи в них. Если в шкафу лежат чистые глаженные вещи, то, как правило, клопов там нет. Достаточно его плотно закрыть и обработать боковины, крышку, заднюю стенку и по периметру пола. Если же в шкаф попадали вещи, которые лежали на зараженном клопами диване, то все вещи необходимо отправить в стирку при высоких температурах или произвести обработку с дезинфектантом; <br><br>
+                                Ковры необходимо вытащить из-под ножек мебели, что бы после обработки, ковер можно было свернуть и обработать пол;
+                                Если на стенах висят рамки с картинами и фотографиями, их необходимо снять, повернуть обратной стороной и подвергнуть аккуратной обработке задней стенки;
+                                Обратите внимание на розетки и выключатели. В них тоже могут быть клопы. Бывает, что их необходимо развинчивать;
+                                Цветы на подоконниках. С цветами обычно ничего не происходит при обработке от клопов;
+                                Продукты питания завяжите туго в пакеты или уберите в холодильник;
+                                Освободите санузлы от полотенец, халатов, и гигиенических принадлежностей, что бы была возможность обработать стены, и пол.</p>
+                        <p class="answ">Что делать после обработки помещения от насекомых?</p>
+                        <p class="quest">Для того, чтобы обработка прошла наиболее эффективно необходимо серьезно отнестись к рекомендациям по подготовке квартиры:
+
+                                При обработке от насекомых холодным туманом, необходимо  помещение закрыть минимум на 3 часа; <br> <br>
+                                При обработке горячим туманом, помещение следует закрыть минимум на 6 часов и позволить осесть препарату на все поверхности. Затем открыть настеж окна и проветрить ударными сквозняками не менее 3-х часов. Помещение пригодно к проживанию по индивидуальному восприятию каждого человека. В нем не должно сильно пахнуть препаратами, першить в горле. После возвращения в квартиру, не нужно вымывать все поверхности и проводить генеральные уборки! Протереть стоит только те поверхности, с которыми вы наиболее часто соприкасаетесь: дверные ручки, столы, раковины, унитаз. Пол можно помыть только в середине, не приближаясь к плинтусам, а лучше первые дни подметать веником без влажной уборки; <br> <br>
+                                Постельное белье и все то, что можно постирать в 90 градусах, можно начинать стирать, аккуратно развязывая мешки и доставая от туда партию белья. Остальное белье снова туго завяжите в мешке.  Детские игрушки так же можно перемыть в мыльно-содовом растворе, если они подвергались обработке. <br> <br>
+                            
+                             
+                            
+                            Если в течении 21-го дня насекомые полностью не исчезают, свяжитесь с нами и мы проведем повторную закрепляющую обработку.</p>
+                        
+                        <p class="answ">Может ли быть аллергическая реакция на препараты?</p>
+                        <p class="quest"> На нашей практике не было зафиксировано ни одного случая аллергической реакции на применяемые препараты.
+
+                                Все используемые средства сертифицированы и разрешены к применению Роспотребнадзором. Относятся к 4 классу безопасности.
+                             
+                                <br><br> Однако, надо понимать, что даже при применении дезсредств без запаха — это все равно химические соединения. Поэтому во время обработки помещения категорически запрещено находится без защитного респиратора. После того, когда квартира будет обработана, препарат подсохнет, вы произведете тщательное проветривание, аллергических реакций не будет.</p>
+                        <p class="answ">Сколько времени занимает обработка квартиры?</p>
+                        <p class="quest"> Каждый случай индивидуален.
+
+                                Если квартира полупустая, то обработка проходит достаточно быстро - 20-30 минут. Если же в квартире много вещей, диванов, кроватей, матрасов, то обработка может занять до 2 часов в зависимости от количества комнат.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="consult" style="background-image:url(assets/img-compressed/slide-2.jpg)">
+            <div class="container">
+                <div class="row">
+                    <h2 class=" heading--medium2 ml-auto mr-auto">Все еще сомневаетесь?</h2>
+                    <div class="w-100"></div>
+                    <div class="col-md-7 col-12">
+                        <ul class="actions">
+                            <li>
+                               Закажите бесплатную консультацию у опытного специалиста.
+                            </li>
+                            <li>
+                               Оформите услугу и мы приступим к реализации в тот же день.
+                            </li>
+                        </ul>
+                        <form action="">
+                            <input type="text" placeholder="Данные для ввода">
+                            <input type="text" placeholder="Данные для ввода">
+                            <button class="button">Отправить заявку</button>
+                        </form>
+                    </div>
+    
+    
+                </div>
+            </div>
+    
+        </section>
+        <footer>
+                <div class="container">
+                    <div class="row d-f;ex justify-content-between align-items-center">
+                        <div class="logotype">
+                            <img src="assets/img-compressed/logo.png" alt="">
+                        </div>
+                        <a href="" class="button">Оформить</a>
+                        <address>
+                            <ul>
+                                <li><a href="">
+                                        +7 (922) 163-33-00
+                                    </a></li>
+                                <li><a href="">
+                                        Обратный звонок
+                                    </a></li>
+                            </ul>
+                        </address>
+                    </div>
+                </div>
+            </footer>
+    <script
+			  src="https://code.jquery.com/jquery-3.4.0.min.js"
+			  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+              crossorigin="anonymous"></script>
+              <script src="assets/js/script.js"></script>
 </body>
 
 </html>

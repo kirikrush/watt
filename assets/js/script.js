@@ -1,7 +1,13 @@
-let burger = document.getElementById("burger"),
-    nav = document.getElementById("mobile-menu");
-burger.addEventListener('click',function(){
-    burger.classList.toggle("active");
-    nav.classList.toggle("adaptive-menu--active");
-    nav.classList.toggle("adaptive-menu");
-});
+$(".answ").click(function(e){
+    if ($(e.currentTarget).hasClass("active")){
+        $(".answ.active + p").slideUp(300);
+        $(".answ.active").removeClass("active");
+    }
+    else{
+    $(".answ.active + p").slideUp(300);
+    $(".answ.active").removeClass("active");
+    $(e.currentTarget).addClass("active");
+    $(".answ.active + p").slideDown(300);
+    }
+
+})
